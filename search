@@ -6,7 +6,10 @@
 <form class=“”>
 <table>
 <tr>
-<input type=“text”
+<td> <label for=""> label </label> <input type=“text” name="label">
+</tr>
+<tr>
+<td> <label for=""> label </label> <input type=“text” name="label">
 </tr>
 </table>
 <script src=“./js/materialize.min.js> </script>
