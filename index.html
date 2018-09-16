@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,22 +34,24 @@
           </ul>
         </div>
       </nav>
-
+      </div>
       <div id="get_started_section">
           
               <div class="card bg-dark text-white text-center">
-                  <img class="card-img" src="./img/get_started.jpg" alt="Card image">
-                  <div class="card-img-overlay">
+                  <img class="card-img" src="./img/get_started.jpg" alt="Card image" style="background-size: cover;">
+                  <div class="card-img-overlay d-flex">
+                      <div class="my-auto mx-auto text-center">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <button class="" onclick="document.getElementById('content_section').scrollIntoView();"> Get Started </button>
+                    </div>
                   </div>
                 </div>
          
         </div>
         <hr>
     <div id="content_section">
-      
+    <div class="container">
     <div class="row">
       <!--Ad placeholder #1-->
       <div class="col-3">
